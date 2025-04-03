@@ -2,15 +2,41 @@
 
 .header-page {
     background-color: #090f1d;
-    height: 70px;
+    height          : 70px;
+    transition      : background-color 0.2s ease-in-out 0s, border-bottom-color .2s ease-in-out .1s, outline-color .2s ease-in-out .1s;
+    position        : fixed;
+    inset           : 0;
 
     .nav-links {
-        gap: 25px;
+        gap        : 25px;
         font-family: 'Mulish-Regular';
 
         a {
-            color: #ffffff;
+            color          : #ffffff;
             text-decoration: none;
+        }
+    }
+
+    .logo-black {
+        display: none;
+    }
+
+    &:hover,
+    &.scrolled {
+        background-color: #ffffff;
+
+        .nav-links {
+            a {
+                color: #000000;
+            }
+        }
+
+        .logo-white {
+            display: none;
+        }
+
+        .logo-black {
+            display: block;
         }
     }
 }

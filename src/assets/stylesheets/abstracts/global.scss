@@ -1,31 +1,35 @@
 @import "../core/utils";
 
 * {
-    padding: 0;
-    margin: 0;
+    padding   : 0;
+    margin    : 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Mulish-Regular';
-    font-size: 16px;
+    font-size  : 16px;
+}
+
+.light-txt {
+    color: #bfc1c599;
 }
 
 // button styles
 .btn {
     &.btn-red {
-        font-family: 'Mulish-Light';
-        font-size: 16px;
+        font-family     : 'Mulish-Light';
+        font-size       : 16px;
         background-color: #dd0735;
-        border-radius: 3px;
-        border: 0;
-        outline: none;
-        min-width: 190px;
+        border-radius   : 3px;
+        border          : 0;
+        outline         : none;
+        min-width       : 190px;
 
         &:focus-visible,
         &:active {
-            border-color: unset !important;
-            box-shadow: unset !important;
+            border-color    : unset !important;
+            box-shadow      : unset !important;
             background-color: #bb022a !important;
         }
 
@@ -40,5 +44,13 @@ body {
         &:hover {
             background-color: #bb022a;
         }
+    }
+}
+
+//input styles
+.glbl-input {
+    .form-control {
+        border-radius: 3px;
+        height       : 54px;
     }
 }
