@@ -1,0 +1,16 @@
+@import "../core/utils";
+
+.header-page {
+    background-color: #090f1d;
+    height: 70px;
+
+    .nav-links {
+        gap: 25px;
+        font-family: 'Mulish-Regular';
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

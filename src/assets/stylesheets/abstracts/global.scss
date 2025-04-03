@@ -8,4 +8,37 @@
 
 body {
     font-family: 'Mulish-Regular';
+    font-size: 16px;
+}
+
+// button styles
+.btn {
+    &.btn-red {
+        font-family: 'Mulish-Light';
+        font-size: 16px;
+        background-color: #dd0735;
+        border-radius: 3px;
+        border: 0;
+        outline: none;
+        min-width: 190px;
+
+        &:focus-visible,
+        &:active {
+            border-color: unset !important;
+            box-shadow: unset !important;
+            background-color: #bb022a !important;
+        }
+
+        &.btn-md {
+            height: 44px;
+        }
+
+        &.btn-lg {
+            height: 54px;
+        }
+
+        &:hover {
+            background-color: #bb022a;
+        }
+    }
 }
