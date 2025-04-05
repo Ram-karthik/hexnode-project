@@ -1,0 +1,67 @@
+@import "../core/utils";
+
+.features-page {
+    background-color: #f7f7f7;
+    position        : relative;
+
+    .feature-box {
+        padding         : 40px 40px 20px 40px;
+        background-color: #ffffff;
+        border          : 1px solid rgb(215, 215, 215);
+        max-width       : 480px;
+        height          : fit-content;
+        border-radius   : 16px;
+        flex-basis      : 50%;
+        position        : relative;
+
+        p {
+            font-size: 18px;
+        }
+
+        .end-txt {
+            font-size: 18px;
+            display  : none;
+        }
+
+        &:hover {
+            transition: all 0.3s ease-in-out;
+            cursor    : pointer;
+
+            .end-txt {
+                display: block;
+            }
+        }
+    }
+
+    .feature-logo {
+        position : absolute;
+        top      : 56%;
+        left     : 50%;
+        transform: translate(-50%, -50%);
+        z-index  : 10;
+    }
+
+    .icon {
+        position: absolute;
+
+        &.icon-1 {
+            top : 40%;
+            left: 39%;
+        }
+
+        &.icon-2 {
+            top  : 40%;
+            right: 39%;
+        }
+
+        &.icon-3 {
+            top  : 53%;
+            right: 39%;
+        }
+
+        &.icon-4 {
+            top : 54%;
+            left: 39%;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import "../core/utils";
+
+.endpoint-page {
+    .end-title {
+        margin-left   : 250px;
+        margin-right  : 250px;
+        line-height   : 53px;
+        padding-bottom: 60px;
+    }
+
+    .endpoint__box--wrp {
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        gap                  : 80px;
+
+        .endpoint-box {
+            max-width: 380px;
+
+            .box-title {
+                font-size     : 32px;
+                padding-top   : 40px;
+                padding-bottom: 20px;
+                font-family   : 'Mulish-Bold';
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

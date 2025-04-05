@@ -1,0 +1,85 @@
+@import "../core/utils";
+
+.customer-box {
+    // width        : 960px !important;
+    // border-radius: 18px;
+
+    img {
+        border-radius: 18px 0 0 18px;
+    }
+
+    .customer-right {
+        background-color: #f7f7f7;
+        width           : 100%;
+        border-radius   : 0 18px 18px 0;
+
+        .inner-top {
+            height       : 135px;
+            padding      : 0 40px;
+            margin       : auto;
+            border-radius: 0 18px 0 0;
+        }
+
+        .inner-bottom {
+            height          : 120px;
+            background-color: #020a190d;
+            border-radius   : 0 0 18px 0;
+            padding         : 0 40px;
+            border-radius   : 0 0 18px 0;
+
+            .name {
+                font-family: 'Mulish-Bold';
+                font-size  : 20px;
+            }
+
+            .desc-txt {
+                color    : #020a19;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.slider-container {
+    width: 960px;
+
+    .slick-arrow {
+        width           : 56px;
+        height          : 56px;
+        background-color: #f7f7f7;
+        display         : flex !important;
+        justify-content : center;
+        align-items     : center;
+        border-radius   : 12px;
+
+        &.slick-prev {
+            left: -75px;
+        }
+
+        &.slick-next {
+            right: -75px;
+        }
+    }
+
+    .slick-prev:before {
+        content   : '';
+        background: url('../../images/customer-img/prev-img.svg') no-repeat;
+        width     : 10px;
+        height    : 16px;
+        display   : block;
+    }
+
+    .slick-next:before {
+        content   : '';
+        background: url('../../images/customer-img/next-img.svg') no-repeat;
+        width     : 10px;
+        height    : 16px;
+        display   : block;
+    }
+
+    .logo-slider {
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+}

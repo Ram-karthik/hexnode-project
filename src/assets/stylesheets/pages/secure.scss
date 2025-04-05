@@ -1,0 +1,17 @@
+@import "../core/utils";
+
+.secure-page {
+    background-color: #020a19;
+    color           : #ffffff;
+
+    .secure-title {
+        margin-left : 150px;
+        margin-right: 150px;
+        line-height : 53px;
+    }
+
+    .secure-btn {
+        padding-left : 40px;
+        padding-right: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+@import "../core//utils";
+
+.multiplatform-page {
+    background-color: #f7f7f7;
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .switch-anim {
+        img {
+            max-width    : 600px;
+            border-radius: 20px;
+        }
+    }
+
+    .switch__anim--right {
+        .device-name {
+            border-bottom : 1px solid rgb(229, 231, 235);
+            padding-top   : 20px;
+            padding-bottom: 20px;
+            font-size     : 24px;
+            font-family   : 'Mulish-Bold';
+            cursor        : pointer;
+        }
+    }
+}
