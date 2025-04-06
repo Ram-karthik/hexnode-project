@@ -1,4 +1,4 @@
-# Getting Started with Henode-project
+# Getting Started with Hexnode-project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
