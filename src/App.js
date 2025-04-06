@@ -11,10 +11,10 @@ function App() {
     <div>
       <Header />
       <TopSection />
-      <Features />
-      <EndPoints />
-      <MultiPlatform />
-      <Customer />
+      <Features id="why" />
+      <EndPoints id="features" />
+      <MultiPlatform id="platforms" />
+      <Customer id="customers" />
       <Secure />
       <Footer />
     </div>

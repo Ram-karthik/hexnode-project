@@ -13,13 +13,13 @@ import logo from "../assets/images/hex-icon.svg";
 
 const Features = () => {
     return (
-        <section className='features-page py-glbl'>
+        <section className='features-page py-glbl' id="why">
             <div className='container'>
                 <div>
                     <div className='feature-logo'>
                         <img src={logo} alt="" />
                     </div>
-                    <img src={linImg1} alt="" className='icon icon-1' />
+                    <img src={linImg1} alt="" className='icon icon-1 dashed-line' />
                     <img src={linImg2} alt="" className='icon icon-2' />
                     <img src={linImg3} alt="" className='icon icon-3' />
                     <img src={linImg4} alt="" className='icon icon-4' />
@@ -27,45 +27,53 @@ const Features = () => {
                 <div className="fs-40 text-center mb-5">Why Hexnode?</div>
                 {/* <div className="d-flex flex-column gap-5"> */}
                 <div className="d-flex justify-content-between flex-wrap">
-                    <div className="feature-box">
-                        <div className="d-flex gap-3 align-items-center">
-                            <img src={icon1} alt="" />
-                            <h4>Adapt to the new normal</h4>
+                    <div style={{ height: "343px" }}>
+                        <div className="feature-box">
+                            <div className="d-flex gap-3 align-items-center">
+                                <img src={icon1} alt="" />
+                                <h4>Adapt to the new normal</h4>
+                            </div>
+                            <p className='mt-2'>
+                                Hybrid, remote or onsite, you can trust Hexnode UEM to deliver. Create policies that cater to your organization’s protocols. Whether it be BYOD, COPE, or platform limited, Hexnode can manage it all.
+                            </p>
+                            <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                         </div>
-                        <p className='mt-2'>
-                            Hybrid, remote or onsite, you can trust Hexnode UEM to deliver. Create policies that cater to your organization’s protocols. Whether it be BYOD, COPE, or platform limited, Hexnode can manage it all.
-                        </p>
-                        <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                     </div>
-                    <div className="feature-box">
-                        <div className="d-flex gap-3 align-items-center">
-                            <img src={icon2} alt="" />
-                            <h4>Adapt to the new normal</h4>
+                    <div style={{ height: "315px" }}>
+                        <div className="feature-box">
+                            <div className="d-flex gap-3 align-items-center">
+                                <img src={icon2} alt="" />
+                                <h4>Adapt to the new normal</h4>
+                            </div>
+                            <p className='mt-2'>
+                                Enable full-fledged device encryption, data loss prevention, and all-rounded device security with Hexnode UEM. Be at the bleeding edge of device security without any compromises.
+                            </p>
+                            <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                         </div>
-                        <p className='mt-2'>
-                            Enable full-fledged device encryption, data loss prevention, and all-rounded device security with Hexnode UEM. Be at the bleeding edge of device security without any compromises.
-                        </p>
-                        <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                     </div>
-                    <div className="feature-box">
-                        <div className="d-flex gap-3 align-items-center">
-                            <img src={icon3} alt="" />
-                            <h4>Get more done with automation</h4>
+                    <div style={{ height: "340px" }}>
+                        <div className="feature-box">
+                            <div className="d-flex gap-3 align-items-center">
+                                <img src={icon3} alt="" />
+                                <h4>Get more done with automation</h4>
+                            </div>
+                            <p className='mt-2'>
+                                Hexnode UEM automation features help free up IT’s time spent on mundane and repetitive tasks. Do hours’ worth of work in a few minutes.
+                            </p>
+                            <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                         </div>
-                        <p className='mt-2'>
-                            Hexnode UEM automation features help free up IT’s time spent on mundane and repetitive tasks. Do hours’ worth of work in a few minutes.
-                        </p>
-                        <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                     </div>
-                    <div className="feature-box">
-                        <div className="d-flex gap-3 align-items-center">
-                            <img src={icon4} alt="" />
-                            <h4>Unified Policy Management</h4>
+                    <div style={{ height: "315px" }}>
+                        <div className="feature-box">
+                            <div className="d-flex gap-3 align-items-center">
+                                <img src={icon4} alt="" />
+                                <h4>Unified Policy Management</h4>
+                            </div>
+                            <p className='mt-2'>
+                                Create a single policy through Hexnode and apply it on all the devices in your organization. Any platform or form factor, achive single pane of glass management with Hexnode.
+                            </p>
+                            <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                         </div>
-                        <p className='mt-2'>
-                            Create a single policy through Hexnode and apply it on all the devices in your organization. Any platform or form factor, achive single pane of glass management with Hexnode.
-                        </p>
-                        <div className='text-danger fw-semibold end-txt'>Try Hexnode on your endpoints</div>
                     </div>
                 </div>
                 {/* </div> */}

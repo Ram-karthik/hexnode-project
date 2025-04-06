@@ -13,6 +13,7 @@
         border-radius   : 16px;
         flex-basis      : 50%;
         position        : relative;
+        transition      : all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 
         p {
             font-size: 18px;
@@ -24,7 +25,7 @@
         }
 
         &:hover {
-            transition: all 0.3s ease-in-out;
+            transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
             cursor    : pointer;
 
             .end-txt {
@@ -35,7 +36,7 @@
 
     .feature-logo {
         position : absolute;
-        top      : 56%;
+        top      : 54%;
         left     : 50%;
         transform: translate(-50%, -50%);
         z-index  : 10;
@@ -45,17 +46,17 @@
         position: absolute;
 
         &.icon-1 {
-            top : 40%;
-            left: 39%;
+            top      : 39%;
+            left     : 39%;
         }
 
         &.icon-2 {
-            top  : 40%;
+            top  : 39%;
             right: 39%;
         }
 
         &.icon-3 {
-            top  : 53%;
+            top  : 54%;
             right: 39%;
         }
 

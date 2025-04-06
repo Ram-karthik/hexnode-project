@@ -10,7 +10,7 @@ import endImg6 from "../assets/images/device-img/app-management.webp";
 
 const EndPoints = () => {
     return (
-        <div className='endpoint-page py-glbl'>
+        <div className='endpoint-page py-glbl' id='features'>
             <div className="container">
                 <div className="fs-40 text-center end-title">Powerful endpoint management, built for the devices you choose</div>
                 <div className="endpoint__box--wrp d-grid">

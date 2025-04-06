@@ -28,10 +28,10 @@ const Header = () => {
                     <img src={logo} alt="logo" className='logo-white' />
                     <img src={logoBlk} alt="logo" className='logo-black' />
                     <div className="nav-links d-flex align-items-center mt-2">
-                        <a href="#">Why Hexnode</a>
-                        <a href="">Features</a>
-                        <a href="">Platforms</a>
-                        <a href="">Customers</a>
+                        <a href="#why">Why Hexnode</a>
+                        <a href="#features">Features</a>
+                        <a href="#platforms">Platforms</a>
+                        <a href="#customers">Customers</a>
                     </div>
                 </div>
                 <Button className='btn-red btn-md'>14 DAY FREE TRIAL</Button>

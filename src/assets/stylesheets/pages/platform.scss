@@ -17,11 +17,41 @@
     .switch__anim--right {
         .device-name {
             border-bottom : 1px solid rgb(229, 231, 235);
-            padding-top   : 20px;
-            padding-bottom: 20px;
+            padding-top   : 16px;
+            padding-bottom: 16px;
             font-size     : 24px;
             font-family   : 'Mulish-Bold';
             cursor        : pointer;
+
+            &.selected {
+                border : 0;
+                padding: 0;
+
+                .device-name-text {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .multi-open {
+        border          : 1px solid rgb(215, 215, 215);
+        background-color: #ffffff;
+        padding         : 30px;
+        border-radius   : 16px;
+
+        .title {
+            font-size  : 24px;
+            font-family: 'Mulish-Bold';
+        }
+
+        p {
+            font-size  : 18px;
+            font-family: 'Mulish-Regular';
+        }
+
+        .end-txt {
+            font-size: 18px;
         }
     }
 }
