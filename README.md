@@ -36,5 +36,20 @@ npm install
 Using yarn:
 
 ```sh
-yarn install
+yarn
 ```
+
+## Run the Project
+
+Using npm:
+
+```sh
+npm start
+```
+
+Using yarn:
+
+```sh
+yarn start
+```
+
