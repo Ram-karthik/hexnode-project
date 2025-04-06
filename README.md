@@ -17,12 +17,12 @@ To get a local copy up and running, follow these steps:
 ### Step 1: Clone the Repository
 
    ```sh
-   git clone https://github.com/Axim-LLMOPS/AximiNice.git
+   git clone https://github.com/Ram-karthik/hexnode-project.git
    ```
 
 ### Step 2: Navigate to the Project Directory
   ```sh
-   cd AximiNice
+   cd hexnode-project
   ```
 
 ### Step 3: Install Dependencies
